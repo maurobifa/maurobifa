@@ -1,0 +1,19 @@
+$colorLetra: #E50914 ;
+$tamañoLetra: 100px ;
+$fondo: #182925 ;
+$fondo2: #40C860 ;
+
+.boxUno {
+    color: $colorLetra;
+    background-color: $fondo;
+    font-size: $tamañoLetra;
+    border-radius: 2px;
+}
+
+
+@each $size in 10px, 15px, 20px{
+    .tamanio-#{$size}{
+        font-size:$size;
+    }
+    
+}

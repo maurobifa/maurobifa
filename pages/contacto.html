@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <header>Contacto</header>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONSULTANOS</title>
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+    <h1>ENVIANOS TU CONSULTA</h1>
+<br><br>
+<nav>
+    <ul>
+        <li><a href="../index.html">VR Principal</a></li>
+        <li><a href="">Clientes</a></li>
+        <li><a href="./pages/whoweare">Quienes Somos?</a></li>
+        <li><a href="#">Contacto</a></li>
+    </ul>
+</nav>
+
+<br><br>
+<h1>Formulario</h1>
+    <form enctype="application/x-www-form-urlencoded" method="GET">
+        <fieldset>
+            <legend>Contanos con qué fin usarías unos lentes de Realidad Virtual</legend>
+            <label for="nombre">Nombre</label> <br>
+            <input type="text" id="nombre" name=nombre required> <br>
+            <label for="Email">Email</label> <br>
+            <input type="email" name="casilla" id="casilla" required> <br>
+            <label for="edad">Edad</label> <br>
+            <input type="number" name="edad" id="edad" required autocomplete="off"> 
+            <br><br>
+
+            <p>Uso personal o empresarial?</p>
+            <label for="personal">Personal</label> <input type="radio" name="personal" id="personal"> <br>
+            <label for="empresarial">Empresarial</label> <input type="radio" name="empresarial" id="empresarial">
+
+            <p>Algun rubro en particular?</p>
+            <select name="rubro" id="rubro">
+                <option value="gastronomia">Gastronomia</option>
+                <option value="medicina">Medicina</option>
+                <option value="juegos">Gamer</option>
+                <option value="empresa">Empresarial</option>
+                <option value="otro">Otros</option>
+            </select>
+            <br><br>
+
+            <input type="checkbox" name="terminos" id="terminos"> <label for="terminos">Acepto los terminos y condiciones</label>
+            <br><br>
+            <input type="submit" value="Enviar Formulario" />
+            <input type="reset" value="Limpiar Formulario"/> 
+
+        
+        
+        
+        
+        
+        
+        </fieldset>    
+    </form>
+
+
+
+
+
+</form>
+
+
+</body>
+</html>
