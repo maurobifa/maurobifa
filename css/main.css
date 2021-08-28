@@ -290,3 +290,27 @@ img.gallery-preview:hover ~ img.gallery-fullsize {
 	display: block;
     
 }
+
+
+/* CONTACTO */
+.headerContacto {
+    color: #36A0FF;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}
+
+video {
+    width: 80%
+;
+height: 80%;
+}
+
+
+.carouselEmp-lg {
+    padding-left: 7cm;
+}
