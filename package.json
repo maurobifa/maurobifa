@@ -14,5 +14,13 @@
     "nodemon": "^2.0.12"
   },
   "dependencies": {},
-  "description": ""
+  "description": "Esta pagina fue realizada como proyecto para Coderhouse en el curso de Desarrollo Web, y la idea es mostrar los diferentes anteojos de realidad virtual y en qué contexto se puede utilizar.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maurobifa/maurobifa.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maurobifa/maurobifa/issues"
+  },
+  "homepage": "https://github.com/maurobifa/maurobifa#readme"
 }

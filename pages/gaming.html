@@ -5,10 +5,14 @@
     <meta name="Mauro Bifaretti" content="primer pagina web">
     <meta name="description" content="Encontrá tus lentes de realidad virtual de acuerdo a tus objetivos. Enterate de las últimas novedades"
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Error 404</title>
-    <link rel="icon" type="image/jpg" href="images/vrr.ico">
+    <title>TÚ EMPRESA</title>
+    <link rel="icon" type="image/jpg" href="../images/vrr.ico">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/main.css">
 <body>
     <!-- HEADER --------------->
@@ -24,7 +28,7 @@
                 <a class="nav-link active" aria-current="page" href="../index.html">PRINCIPAL</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="./index.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   ÁREAS
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -52,33 +56,64 @@
 
         <div class="col-12 col-lg-6 order-first">
             <div class="col-12 mt-5 justify-content-center w-100">
-            <h1 class="colorBlanco cambioColor display-1 text-center">THIS IS VR® NOW</h1>
+              <h1 class="colorBlanco cambioColor display-1 text-center animate__animated animate__flip">THIS IS VR® NOW</h1>
             </div>
             <div class="col-12 my-3">
-                <h6 class="colorBl cambioColor text-center"> Everyone. Everywhere. Everything.</h6>
+                <h6 class="colorBl cambioColor text-center animate__animated animate__rotateInUpRight"> Everyone. Everywhere. Everything.</h6>
             </div>
         </div>
         <br><br><br><br><br>
         <div>
             <div class="col-12 my-3">
-                <a href="../index.html" class="btn btn-outline-warning btn-lg d-flex justify-content-center">PÁGINA EN CONSTRUCCIÓN, IR AL MENÚ PRINCIPAL</a>
+                <a href="#" class="btn btn-outline-warning btn-lg d-flex justify-content-center fw-bold">SUMERGITE EN EL MUNDO DE LOS VIDEOJUEGOS</a>
 
             </div>
         </div>
     </section>
+<br><br>
 
 
-    <br><br><br><br><br>
+<div id="carouselExampleControls" class="carouselEmp-lg carousel slide w-100 d-flex justify-content-center" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <video playsinline autoplay muted loop controls class="embed-responsive-item" src="../video//Half-Life_ Alyx Announcement Trailer - YouTube y 8 páginas más - Personal_ Microsoft​ Edge 2021-09-10 15-41-06_Trim.mp4"></video>
+      </div>
+      <div class="carousel-item">
+        <video playsinline autoplay muted loop controls class="embed-responsive-item" src="../video/emp2.mp4"></video>
+      </div>
+      <div class="carousel-item">
+        <video playsinline autoplay muted loop controls class="embed-responsive-item" src="../video/emp3.mp4"></video>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
 
 
 
 
+<br><br><br><br><br><br><br><br>
 
+
+<div class="container parrafo wow animate__animated animate__bounceInUp">
+   <p>En el contexto de los <span class="cVioleta">VIDEOJUEGOS</span>, la realidad virtual generalmente se refiere a entornos 3D generados por computador. El nivel de <span class="cVioleta">INTERACCIÓN</span> depende del contexto del juego que se está jugando y de cómo los lentes de realidad virtual y los controladores le permiten ingresar a este. </p></div>
+   <br><br><br><br><br>
+   <div class="container parrafo wow animate__animated animate__bounceInUp"><p>La ventaja y el atractivo de la realidad virtual en los videojuegos es la oportunidad de una <span class="cVioleta">INMERSIÓN PROFUNDA</span>. El impacto percibido cambia dependiendo de cómo el sistema equilibre la <span class="cVioleta">ENTRADA SENSORIAL</span>  con <span class="cVioleta">SEÑALES FÍSICAS</span> y diferentes <span class="cVioleta">ESTÍMULOS VISUALES</span>. </p></div>
+  <br><br><br><br><br>
+ 
+
+  <br><br><br><br><br>
 
 
 <!-- FOOTER --------------->
 
-<footer class="container-fluid bg-cVioleta">
+<footer class="container-fluid bg-cVioleta wow animate__animated animate__bounceInUp">
     <div class="container border-bottom p-5">
         <div class="row footer__cBlanco d-flex justify-content-evenly align-items-center">
           <div class="col-12 col-lg-2 d-flex flex-column justify-content-evenly align-items-center d-lg-inline">
@@ -114,5 +149,7 @@
     
   </footer>
     <script src="./js/bootstrap.min.js"></script>
+    <script src="../js/wow.min.js"></script> 
+        <script> new WOW().init(); </script>
 </body>
 </html>

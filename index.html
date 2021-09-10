@@ -10,6 +10,7 @@
     <link rel="icon" type="image/jpg" href="images/vrr.ico">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="./css/main.css">
 </head>
 
@@ -92,10 +93,10 @@
 
                 <div class="col-12 col-lg-6 order-first">
                     <div class="col-12 mt-5 justify-content-center w-100">
-                    <h1 class="colorBlanco cambioColor display-1 text-center">THIS IS VR® NOW</h1>
+                    <h1 class="colorBlanco cambioColor display-1 text-center animate__animated animate__flip">THIS IS VR® NOW</h1>
                     </div>
                     <div class="col-12 my-3">
-                        <h6 class="colorBl cambioColor text-center"> Everyone. Everywhere. Everything.</h6>
+                        <h6 class="colorBl cambioColor text-center animate__animated animate__rotateInUpRight"> Everyone. Everywhere. Everything.</h6>
                     </div>
                 </div>
                 <div>
@@ -109,11 +110,12 @@
 
 
             <!-- SECCION CARDS ------>
+            <br><br><br><br><br>
             <section class="row my-5" id="cards">
                 <div class="col-12">
-                    <h2 class="fw-bold text-center"> TODA LA <span class="cVioleta">REALIDAD</span>, EN TUS <span class="cVioleta aparecer">OJOS</span></h2>
-                
-                    <div class="col-12 my-4 d-flex flex-column flex-lg-row justify-content-around align-items-center mx-2">
+                    <h2 class="fw-bold text-center wow animate__animated animate__bounceInUp"> TODA LA <span class="cVioleta">REALIDAD</span>, EN TUS <span class="cVioleta aparecer">OJOS</span></h2>
+                    <br><br><br>               
+                    <div class="col-12 my-4 d-flex flex-column flex-lg-row justify-content-around align-items-center mx-2 wow animate__animated animate__bounceInUp">
                         <div class="card" style="width: 40rem;">
                             <video playsinline autoplay muted loop controls src="./video/PlayStation VR Worlds - Announcement Trailer _ PS VR - YouTube y 6 páginas más - Personal_ Microsoft​ Edge 2021-08-01 11-44-45_Trim (2).mp4" class="card-img-top" alt="video">
                             <div class="card-body">
@@ -153,7 +155,7 @@
   
     
     
-    <div class="body__areas-edit cambioColor">    
+    <div class="body__areas-edit cambioColor wow animate__animated animate__bounceInUp">    
         <h3><a href="pages/neurociencia.html"></a> Neurociencia</h3>
         <h3>Gaming</h3>
         <h3>Practicas Quirurgicas</h3>
@@ -164,11 +166,28 @@
     <br>
     <br>
     
+    <br><br><br><br><br><br><br><br>
 
+
+    <div class="container parrafo wow animate__animated animate__bounceInUp">
+       <p><span class="cVioleta">¿QUÉ ES LA REALIDAD VIRTUAL?</span>
+          La realidad virtual, conocida por sus siglas <span class="cVioleta">VR</span>, es un objeto que genera tecnología informática para <span class="cVioleta">HACER CREER</span> al usuario que está sumergido en él. Gracias a la realidad virtual, el ser humano <span class="cVioleta">PUEDE SER PARTE</span> de un videojuego por ejemplo, en donde el dispositivo simula como si fuera el propio personaje </p></div>
+       <br><br><br><br><br>
+       <div class="container parrafo wow animate__animated animate__bounceInUp"><p>Los lentes de realidad virtual son <span class="cVioleta">GAFAS AUTÓNOMAS</span> que tienen sus propias pantallas incluidas dentro del dispositivo. Te permiten ser manejadas por mandos de movimiento, cámaras de posicionamiento y una de las potencias más fuertes del mercado, similares a la de una computadora.</p></div>
+      <br><br><br><br><br>
+      <div class="container parrafo wow animate__animated animate__bounceInUp"><p>El usuario <span class="cVioleta">SE SUMERGE</span> en esta realidad virtual mediante los cascos o lentes especiales y se crea una <span class="cVioleta">SENSACIÓN</span> de estar dentro de la escena. También se puede ver una imagen en 3D que provoca <span class="cVioleta">MAYOR REALISMO</span> a la situación. </p></div>
+        <br><br><br><br><br>
+        <div class="container parrafo wow animate__animated animate__bounceInUp"><p> Ten en cuenta que no solo se basa en ponerte unos lentes, la tecnología es capaz de lograr que <span class="cVioleta">TU CEREBRO PIENSE</span> que estás dentro del entorno virtual y que tu cuerpo reaccione como si <span class="cVioleta">REALMENTE ESTUVIERAS AHÍ</span>. ¡Es una locura! 🤩</span> .</p> 
+      </div>
+      
+      <a href="./pages/modelos.html" class="btn btn-outline-warning btn-lg d-flex container parrafo wow animate__animated animate__bounceInUp fw-bold">CONOCE LOS MODELOS</a>    
+    
+      <!-- <span class="cVioleta"></span> -->
+      <br><br><br><br><br>
 
 <!-- FOOTER --------------->
 
-<footer class="container-fluid bg-cVioleta">
+<footer class="container-fluid bg-cVioleta wow animate__animated animate__bounceInUp">
   <div class="container border-bottom p-5">
       <div class="row footer__cBlanco d-flex justify-content-evenly align-items-center">
         <div class="col-12 col-lg-2 d-flex flex-column justify-content-evenly align-items-center d-lg-inline">
@@ -206,6 +225,8 @@
 
         
         <script src="./js/bootstrap.min.js"></script>
+        <script src="js/wow.min.js"></script> 
+        <script> new WOW().init(); </script>
  
 
 
