@@ -6,7 +6,7 @@ html {
  } 
 
 body {
-    background-color: rgb(0, 0, 0);
+    background-color: #09182C;
 }
 
 
@@ -103,14 +103,18 @@ nav {
     display: flex ;
     flex-direction: row;
     justify-content: space-around;
-    background-image:url(../images/portada.jpeg);
+    ;
     
+    
+}
+.tamanioImagen {
+    width: 100px;
+    height: 100px;
+    margin-left: 3cm;
     
 }
 
-img {
-    width: 190px;
-}
+
 
 a:link {
     text-decoration: none;
@@ -118,15 +122,21 @@ a:link {
 div ul a:hover {
     color:gold
 }
+nav {
+    word-spacing: 10px;
+    
+}
+
+
 nav ul li{
     display: inline-block;
-    padding-left: 50px;
-    color:#8011F2
-   
+    
+
 }
 nav ul ul{
     position: relative;
     display: none;
+    
     
 }
 nav ul ul li{
@@ -136,6 +146,10 @@ nav ul li:hover ul{
     display: block;
 }
 
+nav ul li ul li {
+    background-color: #00D1F6;
+    font-weight: bold;
+}
 
 /* CUERPO DE LA WEB */
 #portada img {
@@ -163,7 +177,7 @@ section div img {
 /* ELEMENTOS DE LA TABLA */
 
 
-table {
+/* table {
     border-top: solid red 5px;
     border-right: solid cyan 10px;
     border-bottom: solid green 7px;
@@ -180,7 +194,7 @@ tr, td {
 #filaArriba 
 {
     background-color: gray;
-}
+} */
 
 
 /* CONTENIDO DEL ASIDE Y EL VIDEO */
@@ -228,7 +242,7 @@ margin: 20px;
 
 
  .colorBlanco {
-    color: #8011F2;
+    color: #00D1F6;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 40px;
@@ -240,7 +254,7 @@ color: orange;
 }
 
 .colorBl {
-    color: #8011F2;
+    color: #00D1F6;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 0.2px;
 }
@@ -293,18 +307,23 @@ img.gallery-preview:hover ~ img.gallery-fullsize {
     
 }
 
+.tamanioImagenModelos {
+    width: 500px;
+    height: 400px;
+    padding-left: .3cm;
+}
 
+.fondoDeModelos {
+    background-color: #09182C;
+}
+
+.letraDeModelos {
+    color: #00D1F6
+}
 /* CONTACTO */
-.headerContacto {
-    color: #36A0FF;
-    font-size: 27px;
-    padding: 10px;
-}
 
-.bigicon {
-    font-size: 35px;
-    color: #36A0FF;
-}
+
+/* ELEMENTOS DE CARROUSEL */
 
 video {
     width: 80%

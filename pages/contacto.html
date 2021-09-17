@@ -15,7 +15,7 @@
     <!-- HEADER --------------->
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
-          <a class="navbar-brand" href="../index.html"><img src="../images/intento.ico" alt="icono principal de la pagina"></a>
+          <a class="navbar-brand" href="../index.html"><img src="../images/vr-glasses.png" class="tamanioImagen" alt="icono principal de la pagina"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -51,15 +51,8 @@
 
         <!--CONTENEDOR PORTADA TEXTO  -------->
 
-        <div class="col-12 col-lg-6 order-first">
-            <div class="col-12 mt-5 justify-content-center w-100">
-              <h1 class="colorBlanco cambioColor display-1 text-center animate__animated animate__flip">THIS IS VR® NOW</h1>
-            </div>
-            <div class="col-12 my-3">
-                <h6 class="colorBl cambioColor text-center animate__animated animate__rotateInUpRight"> Everyone. Everywhere. Everything.</h6>
-            </div>
-        </div>
-        <br><br><br><br><br>
+        
+        <br><br><br>
         <div>
             <div class="col-12 my-3">
                 <a href="#" class="btn btn-outline-warning btn-lg d-flex justify-content-center fw-bold">CONTACTANOS PARA CONOCER CUAL MODELO SE ADAPTA A TUS NECESIDADES </a>
@@ -72,60 +65,71 @@
 
 <!-- CONTENEDOR DE FORMULARIO DE CONTACTO -->
 
-<div class="container ps-100">
-    <div class="row">
-        <div class="col-lg-12">
-            <div class="well well-sm">
-                <form class="form-horizontal" method="post">
-                    <fieldset>
-                        <legend class="text-center headerContacto">Contact us</legend>
-
-                        <div class="form-group">
-                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
-                            <div class="col-md-8">
-                                <input id="fname" name="name" type="text" placeholder="Nombre" class="form-control">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
-                            <div class="col-md-8">
-                                <input id="lname" name="name" type="text" placeholder="Apellido" class="form-control">
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
-                            <div class="col-md-8">
-                                <input id="email" name="email" type="text" placeholder="E-mail" class="form-control">
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
-                            <div class="col-md-8">
-                                <input id="phone" name="phone" type="text" placeholder="Teléfono" class="form-control">
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
-                            <div class="col-md-8">
-                                <textarea class="form-control" id="message" name="message" placeholder="Ingresa tu mensaje aquí, te responderemos en 2 días hábiles como máximo" rows="7"></textarea>
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <div class="col-md-12 text-center">
-                                <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
-                            </div>
-                        </div>
-                    </fieldset>
-                </form>
-            </div>
-        </div>
+<form>
+  <div class="form-row border-1">
+    <div class="col-md-4 mb-3">
+      <label for="validationServer01">Primer Nombre</label>
+      <input type="text" class="form-control is-valid" id="validationServer01" placeholder="First name" value="Juan Carlos" required>
+      <div class="valid-feedback">
+        Buen trabajo!
+      </div>
     </div>
-</div>
-
+    <div class="col-md-4 mb-3">
+      <label for="validationServer02">Apellido</label>
+      <input type="text" class="form-control is-valid" id="validationServer02" placeholder="Last name" value="Pérez" required>
+      <div class="valid-feedback">
+        Sigue así...
+      </div>
+    </div>
+    <div class="col-md-4 mb-3">
+      <label for="validationServerUsername">Nombre de Usuario</label>
+      <div class="input-group">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="inputGroupPrepend3">@</span>
+        </div>
+        <input type="text" class="form-control is-invalid" id="validationServerUsername" placeholder="Username" aria-describedby="inputGroupPrepend3" required>
+        <div class="invalid-feedback">
+          Por favor escoge un nombre de usuario
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="col-md-6 mb-3">
+      <label for="validationServer03">Ciudad</label>
+      <input type="text" class="form-control is-invalid" id="validationServer03" placeholder="City" required>
+      <div class="invalid-feedback">
+        Por Favor coloca una ciudad correcta
+      </div>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationServer04">Estado</label>
+      <input type="text" class="form-control is-invalid" id="validationServer04" placeholder="State" required>
+      <div class="invalid-feedback">
+        Por favor coloca un estado correcto
+      </div>
+    </div>
+    <div class="col-md-3 mb-3">
+      <label for="validationServer05">Código Postal</label>
+      <input type="text" class="form-control is-invalid" id="validationServer05" placeholder="Zip" required>
+      <div class="invalid-feedback">
+        Por favor coloca un código postal correcto
+      </div>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3" required>
+      <label class="form-check-label" for="invalidCheck3">
+        Acepto términos y condiciones
+      </label>
+      <div class="invalid-feedback">
+        Debes aceptar antes de enviar
+      </div>
+    </div>
+  </div>
+  <button class="btn btn-primary" type="submit">Enviar formulario, en 48 hs hábiles como máximo nos contactaremos</button>
+</form>
 
 <!-- FOOTER --------------->
 
@@ -133,7 +137,7 @@
     <div class="container border-bottom p-5">
         <div class="row footer__cBlanco d-flex justify-content-evenly align-items-center">
           <div class="col-12 col-lg-2 d-flex flex-column justify-content-evenly align-items-center d-lg-inline">
-          <img src="../images/intento.ico" alt="" class="w-25 w-lg-50 m-3">
+          <img src="../images/vr-glasses.png" alt="" class="w-25 w-lg-50 m-3">
             <p class="col-12">Bifaretti M © 2021, All Rights Reserved</p>
             <p class="col-12">bifarettioyt@gmail.com</p>
           </div>
@@ -164,7 +168,7 @@
   <p class="col-12 text-center footer__cBlanco py-2">Mauro Bifaretti | Todos los derechos reservados. </p>
     
   </footer>
-    <script src="./js/bootstrap.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
 </body>
 </html>
 
