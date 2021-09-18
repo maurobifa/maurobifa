@@ -11,70 +11,10 @@ body {
 
 
 
- /* HEADER */
-header {
-    color:white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
-    font-style: normal;
-    padding-top: 20px;
-    position: relative;
-    text-align:center;
-    
-    
-}
-
 
 
     /* BODY  */
 
-/* GRILLA PARA MODELOS */
-
-
-.grilla {
-    display:grid;
-    background-color: blueviolet;
-    grid-template-areas: "header header header"
-                         "nav nav nav"
-                         "imagen1 imagen2 imagen3"
-                         "imagen4 imagen5 imagen6"
-                         "footer footer footer";
-
-        }
-header {
-    grid-area: header;
-}
-
-footer {
-    grid-area: footer;
-}
-nav {
-    grid-area: nav;
-}
-.imagen1 {
-    grid-area: imagen1;
-}
-
-.imagen2 {
-    grid-area: imagen2;
-}
-.imagen3 {
-    grid-area: imagen3;
-}
-.imagen4 {
-    grid-area: imagen4;
-}
-.imagen5 {
-    grid-area: imagen5;
-}
-.imagen6 {
-    grid-area: imagen6;
-}
-
-.imagenTabla:hover {
-    color: orange
-    
-}
 
 }
  /* MEDIA QUERIES */
@@ -174,48 +114,6 @@ section div img {
     transition: .5s;
 }
 
-/* ELEMENTOS DE LA TABLA */
-
-
-/* table {
-    border-top: solid red 5px;
-    border-right: solid cyan 10px;
-    border-bottom: solid green 7px;
-    border-left: solid yellow 12px;
-    background-color: violet;
-}
-th {
-    background-color: gray;
-    border: solid 1px
-}
-tr, td {
-    border:solid 1px
-}
-#filaArriba 
-{
-    background-color: gray;
-} */
-
-
-/* CONTENIDO DEL ASIDE Y EL VIDEO */
-
-aside {
-    text-align: right;
-    font-size: 20px;
-}
-#lateral {
-    flex-direction: row;
-    padding-left: 600px;
-    float: right;
-   
-}
-h2 {
-    font-size: 25px;
-}
-#video {
-    float: left;
-    margin-left: 4cm;
-}
 
 
 /* CONTENIDO PRINCIPAL */
@@ -336,6 +234,10 @@ height: 80%;
     padding-left: 7cm;
 }
 
+.alturaYancho {
+    height: auto;
+    width: auto;
+}
 /* EMPRESARIAL */
 .parrafo {
     color: white ;
